@@ -10,7 +10,7 @@ export default function Footer() {
         <>
             <footer id="foot">
                 <img src={esquerda} alt="Seta para a esquerda" />
-                <img src={roupas} alt="Roupas Simples" className="img_foot"/>
+                <img src={roupas} alt="Roupas Simples" className="img_foot" id="item1"/>
                 <img src={calcas} alt="Calças Jeans" className="img_foot"/>
                 <img src={cinto} alt="Cinto" className="img_foot"/>
                 <img src={direita} alt="Seta para a direita" />
