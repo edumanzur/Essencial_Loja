@@ -1,0 +1,16 @@
+#foot {
+    background-color: #C8C8B4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 30vh;
+}
+
+.img_foot {
+    background-color: #39414E;
+    border-radius: 10px;
+    height: 180px;
+    width: auto;
+    padding: 10px;
+}

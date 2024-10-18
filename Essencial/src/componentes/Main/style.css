@@ -1,0 +1,24 @@
+@import url('https://fonts.cdnfonts.com/css/inria-serif');
+#terno1 {
+    background-color: #39414E;
+    border-radius: 10px;
+    height: 350px;
+    width: auto;
+}
+
+#home {
+    background-color: #001F3F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: calc(11vh + 3px);
+}
+
+#texto {
+    color: white;
+    font-family: 'Inria Serif', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+#titulo {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#cabeca {
+    background-color: #434343;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.botao {
+    background-color: #696969;
+    border-style: none;
+    border-radius: 20px;
+    padding: 8px 18px;
+    color: white;
+    margin: 0px 12px;
+}
+
+.botao:hover {
+    box-shadow: 2px 2px #ABABAB;
+    transition: 0.4s;
+}
+
+a {
+    text-decoration: none;
+}
