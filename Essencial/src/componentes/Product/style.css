@@ -74,3 +74,40 @@
 button:hover {
     cursor: pointer;
 }
+
+#filtragem {
+    /* display: none; */
+    background-color: #848484;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+#parte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#espaco {
+    /* display: none; */
+    background-color: #848484;
+    padding: 5px 15px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+#botao-filtrar {
+    background-color: #696969;
+    border-style: none;
+    padding: 4px;
+    border-radius: 12px;
+}
+
+.form label {
+    margin-right: 5px;
+}
+
+.form {
+    margin-bottom: 10px;
+}

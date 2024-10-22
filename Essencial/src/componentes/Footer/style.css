@@ -14,3 +14,28 @@
     width: auto;
     padding: 10px;
 }
+
+#itens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#itens img {
+    margin: 0px 100px 0px 100px;
+}
+
+.setas {
+    border-style: none;
+    background-color: #C8C8B4;
+}
+
+#itens img:hover {
+    box-shadow: 8px 8px 4px #ABABAB;
+    transition: 0.8s;
+}
+
+.seta:hover {
+    height: 60px;
+    width: auto;
+}
