@@ -6,7 +6,12 @@ import Filtro from '../../assets/Filtro.png'
 
 export default function Product() {
     const filtro = () => {
-
+        let caixa = document.getElementById('parte')
+        if(caixa.style.display == 'none') {
+            caixa.style.display = 'flex'
+        } else {
+            caixa.style.display = 'none'
+        }
     }
 
     return (
@@ -26,7 +31,11 @@ export default function Product() {
                             <label>Camisas</label>
                             <input type="checkbox" />
                         </div>
-                        <button id="botao-filtrar">Filtrar</button>
+                        <div className="form">
+                            <label>Calças</label>
+                            <input type="checkbox" />
+                        </div>
+                        <button id="botao-filtrar" type="submit">Filtrar</button>
                     </div>
                 </div>
                 
